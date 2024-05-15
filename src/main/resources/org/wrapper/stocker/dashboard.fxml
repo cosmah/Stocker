@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="root" alignment="CENTER">
+    <!-- Side Menu -->
+    <VBox fx:id="sideMenu" alignment="TOP_LEFT" style="-fx-background-color: #333;">
+        <Button graphic="<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24'>...</svg>" text="Overview" onAction="#handleMenuItemClick"/>
+        <Button graphic="<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24'>...</svg>" text="Reports" onAction="#handleMenuItemClick"/>
+        <Button graphic="<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24'>...</svg>" text="Stock" onAction="#handleMenuItemClick"/>
+        <Button graphic="<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24'>...</svg>" text="People" onAction="#handleMenuItemClick"/>
+        <Button graphic="<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24'>...</svg>" text="Expenses" onAction="#handleMenuItemClick"/>
+        <Button graphic="<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24'>...</svg>" text="Warehouse" onAction="#handleMenuItemClick"/>
+    </VBox>
+
+    <!-- Main Content Area -->
+    <AnchorPane fx:id="mainContent" prefWidth="100%" prefHeight="100%">
+        <!-- Your content goes here -->
+    </AnchorPane>
+</VBox>
